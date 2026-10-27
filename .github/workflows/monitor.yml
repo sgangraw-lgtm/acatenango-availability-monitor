@@ -27,14 +27,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Check tour pages and send alerts
+      - name: Check tour pages and send Telegram alerts
         env:
-          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
-          MAIL_APP_PASSWORD: ${{ secrets.MAIL_APP_PASSWORD }}
-          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python monitor.py
 
-      - name: Save alert state
+      - name: Save availability state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
