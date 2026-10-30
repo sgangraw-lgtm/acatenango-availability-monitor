@@ -8,12 +8,12 @@
     "Guatemala Nature": {
       "status": "no_matching_clue",
       "url": "https://guatemalanature.com/tours/acatenango-overnight",
-      "checked_at_utc": "2026-10-30T09:02:09Z"
+      "checked_at_utc": "2026-10-30T09:59:52Z"
     },
     "Lava Trails": {
       "status": "no_matching_clue",
       "url": "https://lava-trails.com/acatenango-overnight-tour-lava-trails",
-      "checked_at_utc": "2026-10-30T09:02:11Z"
+      "checked_at_utc": "2026-10-30T09:59:57Z"
     },
     "Lava Trails Reservations": {
       "status": "no_matching_clue",
@@ -23,18 +23,18 @@
     "Acatenango Local Adventure": {
       "status": "no_matching_clue",
       "url": "https://acatelocaladventure.com/",
-      "checked_at_utc": "2026-10-30T09:02:15Z"
+      "checked_at_utc": "2026-10-30T10:00:02Z"
     },
     "Acatenango.org": {
       "status": "no_matching_clue",
       "url": "https://acatenango.org/overnight-tours/",
-      "checked_at_utc": "2026-10-30T09:02:18Z"
+      "checked_at_utc": "2026-10-30T10:00:04Z"
     },
     "QuetzalGo": {
       "status": "no_matching_clue",
       "url": "https://quetzalgo.gt/acatenango",
-      "checked_at_utc": "2026-10-30T09:02:06Z"
+      "checked_at_utc": "2026-10-30T09:59:49Z"
     }
   },
-  "last_run_utc": "2026-10-30T09:02:20Z"
+  "last_run_utc": "2026-10-30T10:00:06Z"
 }
